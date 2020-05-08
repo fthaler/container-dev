@@ -1,0 +1,3 @@
+[submodule "base/rcs"]
+	path = base/rcs
+    url = https://fthaler@bitbucket.org/fthaler/rcs.git
