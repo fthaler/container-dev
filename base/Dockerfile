@@ -6,7 +6,9 @@ ARG DEBIAN_FRONTEND=noninteractive
 RUN apt-get update -qq && \
     apt-get install -qq -y \
         build-essential \
+        clang-format \
         cmake \
+        gdb \
         curl \
         git \
         language-pack-en-base \
